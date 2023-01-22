@@ -107,11 +107,12 @@ body{
     padding-left: 15px;
 }
 .sideMenu ul li{
-    padding: 5px 0px;
+    padding: 8px 0px;
 }
 .sideMenu ul li a{
     text-decoration: none;
     color: #ffffff;
+    font-size: 18px;
 }
 .sideMenu ul li a:hover{
     text-decoration: underline;
@@ -171,6 +172,11 @@ body{
     transform: translate(-50%,-50%);
     color: white;
     font-size: 48px;
+}
+@media(max-width:576px){
+    #slider{
+        height: 40vh;
+    }
 }
 #artical{
     background: #00001a;
